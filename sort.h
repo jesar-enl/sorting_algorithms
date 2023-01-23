@@ -38,7 +38,7 @@ void list_split_merge(int *array, int start, int end, int *copy);
 void top_down_merge(int *array, int beg, int mid, int end, int *copy);
 void print_range(int *array, int start, int stop);
 void swap(int *a, int *b);
-void heapify(int *array, size_t count, int i);
+void heapify(int *array, size_t count);
 void sift_down(int *array, long start, long end, size_t count);
 int len_list(listint_t *h);
 
