@@ -46,6 +46,7 @@ void swap(int *a, int *b)
 void heapify(int *array, size_t count)
 {
 	long end, start;
+
 	end = count - 1;
 	start = (end - 1) / 2;
 	while (start >= 0)

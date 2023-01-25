@@ -19,7 +19,7 @@ int len_list(listint_t *h)
 }
 
 /**
- * insertion_sort - function to sort the list using insertion mode
+ * insertion_sort_list - function to sort the list using insertion mode
  *
  * @list: list to sort
  */
